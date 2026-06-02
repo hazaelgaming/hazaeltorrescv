@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Curriculum web de Hazael Torres Suarez, perfil IT y logistico especializado en soporte, sistemas, Linux, seguridad, SAP SD, stock, compras y procesos empresariales."
+    />
+    <title>Hazael Torres Suárez | Curriculum Web</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" aria-hidden="true">
+      <div class="loader-box">
+        <div class="loader-bar"></div>
+        <p>INITIALIZING SYSTEM...</p>
+        <strong>Loading professional curriculum...</strong>
+      </div>
+    </div>
+
+    <div class="background-lines" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">
+          <span>HT</span>
+          <div>
+            <strong>Hazael Torres</strong>
+            <small>Técnico Informático</small>
+          </div>
+        </a>
+
+        <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#perfil">Perfil</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#formacion">Formación</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero section">
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="availability"><span></span>Disponible para oportunidades profesionales</p>
+            <h1>Hazael Torres Suárez</h1>
+            <p class="headline">
+              Técnico IT y Consultor SAP SD | Sistemas, soporte, logística y procesos empresariales
+            </p>
+            <p class="summary">
+              Perfil puente entre tecnología, operaciones logísticas y sistemas empresariales SAP.
+              Combino experiencia en soporte IT, administración de sistemas, usuarios y seguridad
+              con trabajo directo en almacén, compras, control de stock, Microsoft NAV y transición
+              de sistemas a SAP.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary js-cv-download" href="assets/Hazael_Torres_CV.pdf" download>Descargar CV</a>
+              <a class="button secondary js-linkedin-click" href="https://www.linkedin.com/in/hazael-torres-suarez" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+            <div class="counter-strip" aria-label="Contadores locales">
+              <div>
+                <span id="cvDownloads">0</span>
+                <small>descargas de CV</small>
+              </div>
+              <div>
+                <span id="linkedinClicks">0</span>
+                <small>clics en LinkedIn</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="portrait-panel">
+            <img src="assets/hazael-torres.jpeg" alt="Foto profesional de Hazael Torres Suárez" />
+            <div class="portrait-label">IT · Logística · SAP SD · Linux</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="perfil" class="section">
+        <div class="section-title">
+          <p>Perfil</p>
+          <h2>Perfil puente entre IT, logística y SAP</h2>
+        </div>
+        <div class="tabs" aria-label="Información profesional">
+          <div class="tab-buttons" role="tablist">
+            <button class="tab-button active" type="button" role="tab" aria-selected="true" data-tab="acerca">Acerca de mí</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="it-logistica">IT + Logística</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="experiencia-tab">Experiencia</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="trayectoria">Trayectoria</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="datos-interes">Datos de interés</button>
+          </div>
+
+          <article class="tab-panel active" data-panel="acerca" role="tabpanel">
+            <h3>Acerca de mí</h3>
+            <p>
+              Profesional del sector IT con experiencia en soporte técnico, administración de
+              sistemas, configuración de puestos de trabajo, seguridad mediante firmas digitales
+              y resolución de incidencias. Me gustaría formar parte de una empresa que me dé la
+              oportunidad de demostrar que soy un excelente elemento para trabajar, aportar valor
+              real al equipo y seguir creciendo profesionalmente.
+            </p>
+          </article>
+
+          <article class="tab-panel" data-panel="it-logistica" role="tabpanel">
+            <h3>IT + Logística</h3>
+            <p>
+              Mi perfil une la base técnica de sistemas con experiencia directa en operaciones
+              logísticas, compras, almacén, control de stock y migración de datos. Esta combinación
+              me permite entender tanto la parte tecnológica como el impacto real que tienen los
+              sistemas en los procesos de almacén, trazabilidad, usuarios y negocio.
+            </p>
+          </article>
+
+          <article class="tab-panel" data-panel="experiencia-tab" role="tabpanel">
+            <h3>Consultor SAP SD certificado</h3>
+            <p>
+              Cuento con la certificación de Consultor SAP SD y 1 año de experiencia vinculada a
+              procesos SAP, operaciones empresariales, migración de datos, control de stock,
+              compras y transición de sistemas. Mi objetivo es seguir desarrollándome en entornos
+              SAP donde pueda combinar visión técnica, logística y orientación a negocio.
+            </p>
+          </article>
+
+          <article class="tab-panel" data-panel="trayectoria" role="tabpanel">
+            <h3>Trayectoria y disponibilidad</h3>
+            <p>
+              Mi trayectoria combina soporte IT, sistemas, atención a usuarios, operaciones,
+              gestión de incidencias y experiencia práctica en entornos de empresa. Puedo
+              teletrabajar porque cuento con un espacio específico preparado para ello. En caso
+              de trabajo presencial, actualmente vivo en Badajoz capital.
+            </p>
+          </article>
+
+          <article class="tab-panel" data-panel="datos-interes" role="tabpanel">
+            <h3>Datos de interés</h3>
+            <p>
+              Dispongo de carnet de conducir tipo B. Me considero una persona responsable,
+              polivalente y orientada a resultados, con alta capacidad de aprendizaje rápido,
+              adaptación a nuevos entornos y buen desempeño en situaciones de presión. Aporto
+              compromiso, iniciativa y una actitud profesional enfocada en resolver problemas y
+              colaborar de forma efectiva con el equipo.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experiencia" class="section">
+        <div class="section-title">
+          <p>Experiencia laboral</p>
+          <h2>Trayectoria IT, logística y operaciones</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2024 - 2025</div>
+            <h3>Técnico de Almacén · Operaciones y sistemas</h3>
+            <h4>Trolli Iberica S.A. · Valencia</h4>
+            <p>
+              Experiencia clave en entorno logístico: ciclo de compras, control de stock, gestión
+              operativa de almacén y uso de Microsoft NAV. Colaboración directa en la transición de
+              sistemas a SAP MM, cuidando la integridad de datos durante el proceso de migración y
+              conectando necesidades operativas con sistemas empresariales.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2025 - 2025</div>
+            <h3>Técnico en Sistemas Informáticos (Prácticas)</h3>
+            <h4>Instituto de Investigación Sanitaria · Valencia</h4>
+            <p>
+              Soporte técnico a usuarios y resolución de incidencias. Colaboración en la
+              administración de sistemas, gestión de Active Directory, aplicación de protocolos de
+              ciberseguridad y creación de documentación técnica.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2023 - 2024</div>
+            <h3>Técnico de Soporte Microinformático y Sistemas</h3>
+            <h4>Talleres TodoRueda - Kikeruncar</h4>
+            <p>
+              Gestión integral de infraestructura informática en modalidad híbrida. Mantenimiento
+              preventivo y correctivo de hardware, despliegue de software corporativo, resolución
+              de incidencias, gestión de identidades mediante firmas digitales y puesta en marcha
+              de nuevos puestos de trabajo.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2016 - 2023</div>
+            <h3>Atención al Cliente</h3>
+            <h4>Tiendas Orange</h4>
+            <p>
+              Responsable de tienda durante 7 años, liderando equipo y objetivos de venta.
+              Especialista en resolución de conflictos, gestión de facturación, fidelización de
+              clientes y comunicación asertiva.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="formacion" class="section">
+        <div class="section-title">
+          <p>Formación</p>
+          <h2>Base técnica y certificaciones</h2>
+        </div>
+
+        <div class="education-grid">
+          <article class="card education-card">
+            <span>01</span>
+            <h3>Técnico Superior en Administración de Sistemas Informáticos en Red</h3>
+            <p>CIPFP Ausiàs March · Valencia · 2023 - 2025</p>
+          </article>
+          <article class="card education-card">
+            <span>02</span>
+            <h3>Carnet de Carretillero</h3>
+            <p>Formación Carretillas, S.L. · Valencia · 2024</p>
+          </article>
+          <article class="card education-card">
+            <span>03</span>
+            <h3>SAP SD, logística y procesos empresariales</h3>
+            <p>Certificación de Consultor SAP SD y 1 año de experiencia en procesos SAP, operaciones logísticas, stock, compras y migración de datos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section">
+        <div class="section-title">
+          <p>Habilidades</p>
+          <h2>Competencias IT, logísticas y SAP</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill">
+            <strong>Sistemas IT</strong>
+            <p>Windows Server, Linux, Active Directory y administración de entornos híbridos.</p>
+          </div>
+          <div class="skill">
+            <strong>Logística operativa</strong>
+            <p>Control de stock, compras, almacén, trazabilidad, Microsoft NAV y coordinación con procesos de negocio.</p>
+          </div>
+          <div class="skill">
+            <strong>SAP SD y SAP MM</strong>
+            <p>Consultor SAP SD certificado, 1 año de experiencia SAP, transición a SAP MM y migración de datos.</p>
+          </div>
+          <div class="skill">
+            <strong>Soporte y usuarios</strong>
+            <p>Gestión de incidencias, Help Desk, documentación técnica, atención a usuarios y resolución estructurada de problemas.</p>
+          </div>
+          <div class="skill">
+            <strong>Seguridad y hardware</strong>
+            <p>Montaje de equipos, firewalls, antivirus, firmas digitales y aplicación de protocolos de ciberseguridad.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact-section">
+        <div class="contact-panel">
+          <div>
+            <p class="availability"><span></span>Disponible para oportunidades profesionales</p>
+            <h2>Contacto</h2>
+            <p>
+              Si buscas un perfil técnico con experiencia real en soporte, sistemas, usuarios,
+              SAP SD, logística, stock, operaciones y procesos empresariales, puedes contactarme
+              por cualquiera de estos medios.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="tel:+34655273268">+34 655 273 268</a>
+            <a href="mailto:hazael.torres.s@gmail.com">hazael.torres.s@gmail.com</a>
+            <a class="js-linkedin-click" href="https://www.linkedin.com/in/hazael-torres-suarez" target="_blank" rel="noreferrer">linkedin.com/in/hazael-torres-suarez</a>
+            <a class="js-cv-download" href="assets/Hazael_Torres_CV.pdf" target="_blank">Ver CV en PDF</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a class="whatsapp" href="https://wa.me/34655273268" target="_blank" rel="noreferrer" aria-label="Contactar por WhatsApp" title="Contactar por WhatsApp">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16.04 4.2A11.65 11.65 0 0 0 6.1 23.9L4.8 28.7l4.9-1.28A11.65 11.65 0 1 0 16.04 4.2Zm0 2.15a9.5 9.5 0 0 1 8.1 14.47 9.49 9.49 0 0 1-12.58 3.43l-.35-.2-2.9.76.78-2.82-.23-.37a9.5 9.5 0 0 1 7.18-15.27Zm-4.1 4.42c-.2 0-.53.07-.8.37-.27.3-1.05 1.02-1.05 2.48s1.08 2.88 1.23 3.08c.15.2 2.08 3.33 5.18 4.53 2.57.99 3.1.8 3.66.75.56-.05 1.82-.74 2.08-1.45.26-.72.26-1.34.18-1.47-.08-.13-.29-.2-.6-.35-.31-.16-1.83-.9-2.12-1-.28-.11-.49-.16-.7.15-.2.31-.8 1-.98 1.2-.18.2-.36.23-.67.08-.31-.16-1.31-.48-2.5-1.54-.92-.82-1.55-1.83-1.73-2.14-.18-.31-.02-.48.14-.63.14-.14.31-.36.47-.54.16-.18.2-.31.31-.52.1-.2.05-.39-.03-.54-.08-.15-.7-1.7-.96-2.33-.25-.6-.51-.52-.7-.53h-.6Z" />
+      </svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
